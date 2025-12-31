@@ -17,7 +17,7 @@ import requests
 # ==========================
 # CONFIGURATION
 # ==========================
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8419010897:AAGgELVt2Lv5mIjYDrCtW8Fr1IEUuBINTzE')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8504965473:AAGeoE2pRX4U8yKw99Krdsa-uPIY25a_CmI')
 ADMIN_ID = int(os.environ.get('ADMIN_ID', 6493515910))
 API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 PORT = int(os.environ.get('PORT', 10000))
@@ -3669,3 +3669,4 @@ if __name__ == "__main__":
         use_reloader=False
 
     )
+
